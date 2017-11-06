@@ -1,4 +1,4 @@
-# intellij-file-icons
+# intellij-file-icon
 
 intellij 插件
 
