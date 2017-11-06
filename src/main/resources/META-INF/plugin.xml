@@ -29,6 +29,7 @@
     </extensions>
     <!--suppress PluginXmlValidity -->
     <depends optional="true">net.seesharpsoft.intellij.plugins.csv</depends>
+    <depends optional="true">com.vladsch.idea.multimarkdown</depends>
     <application-components>
         <component>
             <implementation-class>cn.javaer.intellijfileicon.FinalIconReplacerComponent
