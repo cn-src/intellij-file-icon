@@ -11,5 +11,8 @@ public class FinalIconReplacerComponent implements ApplicationComponent {
         StaticPatcher.classForName("net.seesharpsoft.intellij.plugins.csv.CsvIconPovider").ifPresent(clz -> {
             StaticPatcher.setFinalStatic(clz, "FILE", FinalFileIconProvider.FILE_ICON_MAPPING.get("csv"));
         });
+        StaticPatcher.classForName("com.vladsch.idea.multimarkdown").ifPresent(clz -> {
+            StaticPatcher.setFinalStatic(clz, "FILE", FinalFileIconProvider.FILE_ICON_MAPPING.get("md"));
+        });
     }
 }
