@@ -25,9 +25,16 @@
 
     <extensions defaultExtensionNs="com.intellij">
         <!-- Add your extensions here -->
-        <iconProvider implementation="cn.javaer.intellijfileicon.FinalIconProvider"/>
+        <fileIconProvider implementation="cn.javaer.intellijfileicon.FinalFileIconProvider"/>
     </extensions>
-
+    <!--suppress PluginXmlValidity -->
+    <depends optional="true">net.seesharpsoft.intellij.plugins.csv</depends>
+    <application-components>
+        <component>
+            <implementation-class>cn.javaer.intellijfileicon.FinalIconReplacerComponent
+            </implementation-class>
+        </component>
+    </application-components>
     <actions>
         <!-- Add your actions here -->
     </actions>
