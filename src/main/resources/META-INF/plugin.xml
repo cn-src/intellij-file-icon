@@ -1,6 +1,6 @@
 <idea-plugin>
-    <id>cn.javaer.intellij-file-icons</id>
-    <name>intellij-file-icons</name>
+    <id>cn.javaer.intellij-file-icon</id>
+    <name>intellij-file-icon</name>
     <version>1.0</version>
     <vendor email="java@javaer.cn">javaer.cn</vendor>
 
