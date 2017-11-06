@@ -9,12 +9,19 @@ import javax.swing.*;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
+/**
+ * 更改默认图标.
+ *
+ * @author zhangpeng
+ */
 public class FinalIconProvider extends IconProvider {
+
+    private static final String CSV_PLUGIN_PSI = "net.seesharpsoft.intellij.plugins.csv.psi.CsvFile";
 
     @Nullable
     @Override
     public Icon getIcon(@NotNull PsiElement psiElement, int i) {
-        if ("net.seesharpsoft.intellij.plugins.csv.psi.CsvFile".equals(psiElement.getClass().getName())) {
+        if (CSV_PLUGIN_PSI.equals(psiElement.getClass().getName())) {
             return IconLoader.getIcon("/icons/file_type_csv.png");
         }
         PsiFile containingFile = psiElement.getContainingFile();
