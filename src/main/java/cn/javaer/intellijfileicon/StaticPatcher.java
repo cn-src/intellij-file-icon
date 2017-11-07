@@ -16,7 +16,7 @@ public final class StaticPatcher {
             field.setAccessible(true);
             field.set(object, value);
         } catch (Exception e) {
-            e.printStackTrace();
+            Messages.showInfoMessage(e.getMessage(), "intellij-file-icon");
         }
     }
 
