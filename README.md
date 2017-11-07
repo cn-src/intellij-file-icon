@@ -25,3 +25,7 @@
 [MarkdownPlugin]: src/main/resources/icons/MarkdownPlugin.png
 
 [a-file-icon]: https://github.com/ihodev/a-file-icon
+
+## 下载
+
+[intellij-file-icon-1.0.zip](https://github.com/javaercn/intellij-file-icon/files/1450435/intellij-file-icon-1.0.zip)
