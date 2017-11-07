@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "cn.javaer"
-version = "1.0-SNAPSHOT"
+version = "1.0"
 
 intellij {
     version = "2017.2.5"
