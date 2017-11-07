@@ -5,6 +5,7 @@
 * intellij 插件, 改变文件图标
 * 图标主要来源于 [a-file-icon](https://github.com/ihodev/a-file-icon)
 * 部分图标来源于其它插件
+* 参考主题插件 [Material Theme UI](https://plugins.jetbrains.com/plugin/8006-material-theme-ui) 的方式，对其它插件或内置的图标进行反射替换
 
 ## 对以下插件的图标进行了替换
 
