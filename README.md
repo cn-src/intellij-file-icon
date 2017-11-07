@@ -2,6 +2,9 @@
 
 # intellij-file-icon
 
-intellij 插件
+intellij 插件, 改变文件图标
 
-改变文件图标
+对以下插件的图标进行了替换
+
+* [CSV Plugin](https://plugins.jetbrains.com/plugin/10037-csv-plugin)
+* [Markdown Navigator](https://plugins.jetbrains.com/plugin/7896-markdown-navigator)
