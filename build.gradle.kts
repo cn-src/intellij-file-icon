@@ -1,10 +1,5 @@
 import org.gradle.kotlin.dsl.repositories
 
-buildscript {
-    repositories {
-        maven { setUrl("http://dl.bintray.com/jetbrains/intellij-plugin-service") }
-    }
-}
 plugins {
     id("org.jetbrains.intellij") version "0.2.17"
 }
