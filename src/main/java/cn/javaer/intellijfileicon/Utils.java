@@ -13,8 +13,7 @@ import java.util.Optional;
  */
 public final class Utils {
 
-    private Utils() {
-    }
+    private Utils() {}
 
     /**
      * 为 final static 字段赋值.
