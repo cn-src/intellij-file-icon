@@ -1,7 +1,10 @@
+IntelliJ file icon plugin
+-------------------------
+
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![GitHub release](https://img.shields.io/github/release/javaercn/intellij-file-icon.svg)]()
 
-# intellij-file-icon
+[![Build Status](https://travis-ci.org/cn-src/intellij-file-icon.svg?branch=master)](https://travis-ci.org/cn-src/intellij-file-icon)
 
 * intellij 插件, 改变文件图标
 * 图标主要来源于 [a-file-icon](https://github.com/ihodev/a-file-icon)
