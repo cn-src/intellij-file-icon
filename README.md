@@ -37,5 +37,6 @@ IntelliJ file icon plugin
 ## 其它
 [Armory 插件修改版](others/Armory.jar)
 
-* 在原插件基础上去除了view的左侧工具栏并调整边框大小。
+* 使用反编译和字节码修改技术，在原插件基础上去除了view的左侧工具栏并调整边框大小。
+* 对插件其它功能无影响，未破解其注册授权。
 * [官网: http://www.visprogramming.com/armory/docs/](http://www.visprogramming.com/armory/docs/)
