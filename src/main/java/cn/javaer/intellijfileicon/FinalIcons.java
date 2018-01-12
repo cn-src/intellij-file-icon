@@ -29,6 +29,6 @@ public class FinalIcons {
     }
 
     public static Icon get(String key) {
-        return fileIconMapping.get(key);
+        return fileIconMapping.get(key.toLowerCase());
     }
 }
