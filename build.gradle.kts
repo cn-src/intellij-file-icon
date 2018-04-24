@@ -1,8 +1,7 @@
 import org.gradle.kotlin.dsl.repositories
 
 plugins {
-    id("org.jetbrains.intellij") version "0.2.17"
-    id("org.sonarqube") version "2.6"
+    id("org.jetbrains.intellij") version "0.3.1"
 }
 
 group = "cn.javaer"
@@ -13,7 +12,7 @@ tasks.withType(JavaCompile::class.java) {
 }
 
 intellij {
-    version = "2017.2.6"
+    version = "2018.1.1"
     updateSinceUntilBuild = false
     setPlugins("net.seesharpsoft.intellij.plugins.csv:1.3",
             "com.vladsch.idea.multimarkdown:2.3.8")
