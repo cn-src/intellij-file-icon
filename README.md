@@ -36,7 +36,7 @@ IntelliJ file icon plugin
 
 ## 下载
 
-[intellij-file-icon-1.0.zip](https://github.com/javaercn/intellij-file-icon/files/1450435/intellij-file-icon-1.0.zip)
+[intellij-file-icon-1.1.zip](https://github.com/cn-src/intellij-file-icon/files/2113615/intellij-file-icon-1.1.zip)
 
 ## 其它
 [Armory 插件修改版](others/Armory.jar)
