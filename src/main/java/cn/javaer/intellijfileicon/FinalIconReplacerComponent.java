@@ -21,5 +21,15 @@ public class FinalIconReplacerComponent implements ApplicationComponent {
         Utils.classForName("icons.MarkdownIcons")
                 .ifPresent(clz ->
                         Utils.setFinalStatic(clz, "FILE", FinalIcons.get("md")));
+
+        Utils.classForName("jodd.idea.props.Props")
+                .ifPresent(clz ->
+                        Utils.setFinalStatic(clz, "FILE_ICON", FinalIcons.get("prop")));
+        Utils.classForName("jodd.idea.props.Props")
+                .ifPresent(clz ->
+                        Utils.setFinalStatic(clz, "ICON_16", FinalIcons.get("prop")));
+        Utils.classForName("jodd.idea.props.Props")
+                .ifPresent(clz ->
+                        Utils.setFinalStatic(clz, "ICON_32", FinalIcons.get("prop@2x")));
     }
 }
