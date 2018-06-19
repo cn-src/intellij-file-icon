@@ -27,6 +27,7 @@
     <!--suppress PluginXmlValidity -->
     <depends optional="true">net.seesharpsoft.intellij.plugins.csv</depends>
     <depends optional="true">com.vladsch.idea.multimarkdown</depends>
+    <depends optional="true">org.jodd.idea.props</depends>
     <application-components>
         <component>
             <implementation-class>cn.javaer.intellijfileicon.FinalIconReplacerComponent
