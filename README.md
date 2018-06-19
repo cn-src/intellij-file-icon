@@ -15,7 +15,6 @@ IntelliJ file icon plugin
 
 * [CSV Plugin](https://plugins.jetbrains.com/plugin/10037-csv-plugin)
 * [Markdown Navigator](https://plugins.jetbrains.com/plugin/7896-markdown-navigator)
-* [Markdown Navigator](https://plugins.jetbrains.com/plugin/7896-markdown-navigator)
 * [Jodd Props Support](https://plugins.jetbrains.com/plugin/5984-jodd-props-support)
 
 ## 图标列表
