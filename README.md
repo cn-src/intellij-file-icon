@@ -15,6 +15,8 @@ IntelliJ file icon plugin
 
 * [CSV Plugin](https://plugins.jetbrains.com/plugin/10037-csv-plugin)
 * [Markdown Navigator](https://plugins.jetbrains.com/plugin/7896-markdown-navigator)
+* [Markdown Navigator](https://plugins.jetbrains.com/plugin/7896-markdown-navigator)
+* [Jodd Props Support](https://plugins.jetbrains.com/plugin/5984-jodd-props-support)
 
 ## 图标列表
 
@@ -23,10 +25,12 @@ IntelliJ file icon plugin
 | ![][file_type_csv]     | csv      |
 | ![][file_type_windows] | bat, cmd |
 | ![][MarkdownPlugin]    | md       |
+| ![][prop]    | prop       |
 
 [file_type_csv]: src/main/resources/icons/file_type_csv.png
 [file_type_windows]: src/main/resources/icons/file_type_windows.png
 [MarkdownPlugin]: src/main/resources/icons/MarkdownPlugin.png
+[prop]: src/main/resources/icons/prop.png
 
 [a-file-icon]: https://github.com/ihodev/a-file-icon
 
