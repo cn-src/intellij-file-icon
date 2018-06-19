@@ -14,6 +14,9 @@ tasks.withType(JavaCompile::class.java) {
 intellij {
     version = "2018.1.1"
     updateSinceUntilBuild = false
-    setPlugins("net.seesharpsoft.intellij.plugins.csv:1.3",
-            "com.vladsch.idea.multimarkdown:2.3.8")
+    setPlugins(
+        "net.seesharpsoft.intellij.plugins.csv:1.3",
+        "com.vladsch.idea.multimarkdown:2.3.8",
+        "org.jodd.idea.props:0.6"
+    )
 }
