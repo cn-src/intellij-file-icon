@@ -1,17 +1,14 @@
 <idea-plugin>
     <id>cn.javaer.intellij-file-icon</id>
-    <name>intellij-file-icon</name>
+    <name>IntelliJ File Icon</name>
     <version>1.0</version>
-    <vendor email="java@javaer.cn">javaer.cn</vendor>
+    <vendor email="710692586@qq.com" url="https://github.com/cn-src/intellij-file-icon">zhangpeng</vendor>
 
     <description><![CDATA[
      file icon
     ]]></description>
 
-    <change-notes><![CDATA[
-      Add change notes here.<br>
-      <em>most HTML tags may be used</em>
-    ]]>
+    <change-notes>
     </change-notes>
 
     <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
