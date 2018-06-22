@@ -23,6 +23,7 @@ public class FinalIcons {
         fileIconMapping.put(".md", IconLoader.getIcon("/icons/MarkdownPlugin.png"));
         fileIconMapping.put(".prop", IconLoader.getIcon("/icons/prop.png"));
         fileIconMapping.put("prop@2x", IconLoader.getIcon("/icons/prop@2x.png"));
+        fileIconMapping.put(".travis.yml", IconLoader.getIcon("/icons/file_type_travis.png"));
     }
 
     private FinalIcons() {}
