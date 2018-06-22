@@ -17,8 +17,8 @@ public class FinalIcons {
     static {
         fileIconMapping = new HashMap<>();
         fileIconMapping.put(".csv", IconLoader.getIcon("/icons/file_type_csv.png"));
-        fileIconMapping.put(".cmd", IconLoader.getIcon("/icons/file_type_powershell.png"));
-        fileIconMapping.put(".bat", IconLoader.getIcon("/icons/file_type_powershell.png"));
+        fileIconMapping.put(".cmd", IconLoader.getIcon("/icons/file_type_windows.png"));
+        fileIconMapping.put(".bat", IconLoader.getIcon("/icons/file_type_windows.png"));
 //        fileIconMapping.put(".sh", IconLoader.getIcon("/icons/file_type_shell.png"));
         fileIconMapping.put(".md", IconLoader.getIcon("/icons/MarkdownPlugin.png"));
         fileIconMapping.put(".props", IconLoader.getIcon("/icons/props.png"));
