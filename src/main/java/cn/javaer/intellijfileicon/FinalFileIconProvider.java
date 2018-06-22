@@ -18,11 +18,7 @@ public class FinalFileIconProvider implements FileIconProvider {
 
     @Nullable
     @Override
-    public Icon getIcon(@NotNull VirtualFile file, int flags, @Nullable Project project) {
-        String fileExtension = file.getExtension();
-        if (null != fileExtension && FinalIcons.containsKeyIgnoreCase(fileExtension)) {
-            return FinalIcons.get(fileExtension);
-        }
-        return null;
+    public Icon getIcon(@NotNull final VirtualFile file, final int flags, @Nullable final Project project) {
+        return FinalIcons.get(file.getName());
     }
 }
