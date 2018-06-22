@@ -27,10 +27,6 @@ public class FinalIcons {
 
     private FinalIcons() {}
 
-//    public static boolean containsKeyIgnoreCase(final String key) {
-//        return fileIconMapping.containsKey(key.toLowerCase());
-//    }
-
     public static Icon get(final String fileName) {
         return fileIconMapping.entrySet().stream()
                 .filter(entry -> fileName.endsWith(entry.getKey()))
