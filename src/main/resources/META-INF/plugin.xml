@@ -22,7 +22,8 @@
 
     <extensions defaultExtensionNs="com.intellij">
         <!-- Add your extensions here -->
-        <fileIconProvider implementation="cn.javaer.intellijfileicon.FinalFileIconProvider"/>
+        <fileIconProvider implementation="cn.javaer.intellijfileicon.FinalFileIconProvider" order="first"/>
+        <iconProvider implementation="cn.javaer.intellijfileicon.FinalIconProvider" order="first"/>
     </extensions>
     <!--suppress PluginXmlValidity -->
     <depends optional="true">net.seesharpsoft.intellij.plugins.csv</depends>
