@@ -27,10 +27,10 @@ public class FinalIconReplacerComponent implements ApplicationComponent {
                         Utils.setFinalStatic(clz, "FILE_ICON", FinalIcons.get("prop")));
         Utils.classForName("jodd.idea.props.Props")
                 .ifPresent(clz ->
-                        Utils.setFinalStatic(clz, "ICON_16", FinalIcons.get("prop")));
+                        Utils.setFinalStatic(clz, "ICON_16", FinalIcons.get("props")));
         Utils.classForName("jodd.idea.props.Props")
                 .ifPresent(clz ->
-                        Utils.setFinalStatic(clz, "ICON_32", FinalIcons.get("prop@2x")));
+                        Utils.setFinalStatic(clz, "ICON_32", FinalIcons.get("props@2x")));
         Utils.classForName("com.ansorgit.plugins.bash.util.BashIcons")
                 .ifPresent(clz ->
                         Utils.setFinalStatic(clz, "BASH_FILE_ICON", FinalIcons.get("sh")));

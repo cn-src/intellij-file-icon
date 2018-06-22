@@ -21,8 +21,8 @@ public class FinalIcons {
         fileIconMapping.put(".bat", IconLoader.getIcon("/icons/file_type_powershell.png"));
         fileIconMapping.put(".sh", IconLoader.getIcon("/icons/file_type_shell.png"));
         fileIconMapping.put(".md", IconLoader.getIcon("/icons/MarkdownPlugin.png"));
-        fileIconMapping.put(".prop", IconLoader.getIcon("/icons/prop.png"));
-        fileIconMapping.put("prop@2x", IconLoader.getIcon("/icons/prop@2x.png"));
+        fileIconMapping.put(".props", IconLoader.getIcon("/icons/props.png"));
+        fileIconMapping.put("prop@2x", IconLoader.getIcon("/icons/props@2x.png"));
         fileIconMapping.put(".travis.yml", IconLoader.getIcon("/icons/file_type_travis.png"));
     }
 
