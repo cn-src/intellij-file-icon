@@ -24,6 +24,7 @@ public class FinalIcons {
         fileIconMapping.put(".props", IconLoader.getIcon("/icons/props.png"));
         fileIconMapping.put("prop@2x", IconLoader.getIcon("/icons/props@2x.png"));
         fileIconMapping.put(".travis.yml", IconLoader.getIcon("/icons/file_type_travis.png"));
+        fileIconMapping.put(".kt", IconLoader.getIcon("/icons/kotlin.png"));
     }
 
     private FinalIcons() {}
