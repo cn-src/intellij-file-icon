@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "cn.javaer"
-version = "1.1"
+version = "1.2"
 
 tasks.withType(JavaCompile::class.java) {
     options.encoding = "UTF-8"

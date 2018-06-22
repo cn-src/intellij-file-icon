@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>cn.javaer.intellij-file-icon</id>
     <name>IntelliJ File Icon</name>
-    <version>1.1</version>
+    <version>1.2</version>
     <vendor email="710692586@qq.com" url="https://github.com/cn-src/intellij-file-icon">zhangpeng</vendor>
 
     <description><![CDATA[
