@@ -26,13 +26,13 @@ public class FinalIcons {
         ICONS.put(".travis.yml", IconLoader.getIcon("/icons/file_type_travis.png"));
         ICONS.put(".kt", IconLoader.getIcon("/icons/kotlin.png"));
         ICONS.put(".gitignore", IconLoader.getIcon("/icons/git.png"));
-        ICONS.put("TODO.md", IconLoader.getIcon("/icons/todo.png"));
+        ICONS.put("todo.md", IconLoader.getIcon("/icons/todo.png"));
     }
 
     private FinalIcons() {}
 
     public static Icon get(final String file) {
-        final Icon icon = ICONS.get(file);
+        final Icon icon = ICONS.get(file.toLowerCase());
         if (icon != null) {
             return icon;
         }
