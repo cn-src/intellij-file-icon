@@ -48,7 +48,7 @@ public final class FinalIconProvider extends IconProvider implements DumbAware {
         if (psiElement instanceof PsiFile) {
             final VirtualFile virtualFile = PsiUtilCore.getVirtualFile(psiElement);
             if (virtualFile != null) {
-                return FinalIcons.getWithEnds(virtualFile.getName());
+                return FinalIcons.get(virtualFile.getName());
             }
         }
         return null;

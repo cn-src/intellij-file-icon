@@ -31,15 +31,15 @@ public class FinalIcons {
 
     private FinalIcons() {}
 
-    public static Icon getWithEnds(final String fileName) {
+    public static Icon get(final String file) {
+        final Icon icon = ICONS.get(file);
+        if (icon != null) {
+            return icon;
+        }
         return ICONS.entrySet().stream()
-                .filter(entry -> fileName.toLowerCase().endsWith(entry.getKey()))
+                .filter(entry -> file.toLowerCase().endsWith(entry.getKey()))
                 .findFirst()
                 .map(Map.Entry::getValue)
                 .orElse(null);
-    }
-
-    public static Icon getWithKey(final String key) {
-        return ICONS.get(key);
     }
 }
