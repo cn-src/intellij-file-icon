@@ -12,27 +12,26 @@ public class FinalIconReplacerComponent implements ApplicationComponent {
     public void initComponent() {
         Utils.classForName("net.seesharpsoft.intellij.plugins.csv.CsvIconPovider")
                 .ifPresent(clz ->
-                        Utils.setFinalStatic(clz, "FILE", FinalIcons.get("csv")));
+                        Utils.setFinalStatic(clz, "FILE", FinalIcons.getWithKey(".csv")));
 
         Utils.classForName("com.vladsch.idea.multimarkdown.MultiMarkdownIcons")
                 .ifPresent(clz ->
-                        Utils.setFinalStatic(clz, "FILE", FinalIcons.get("md")));
+                        Utils.setFinalStatic(clz, "FILE", FinalIcons.getWithKey(".md")));
 
         Utils.classForName("icons.MarkdownIcons")
                 .ifPresent(clz ->
-                        Utils.setFinalStatic(clz, "FILE", FinalIcons.get("md")));
-
+                        Utils.setFinalStatic(clz, "FILE", FinalIcons.getWithKey(".md")));
         Utils.classForName("jodd.idea.props.Props")
                 .ifPresent(clz ->
-                        Utils.setFinalStatic(clz, "FILE_ICON", FinalIcons.get("prop")));
+                        Utils.setFinalStatic(clz, "FILE_ICON", FinalIcons.getWithKey(".props")));
         Utils.classForName("jodd.idea.props.Props")
                 .ifPresent(clz ->
-                        Utils.setFinalStatic(clz, "ICON_16", FinalIcons.get("props")));
+                        Utils.setFinalStatic(clz, "ICON_16", FinalIcons.getWithKey(".props")));
         Utils.classForName("jodd.idea.props.Props")
                 .ifPresent(clz ->
-                        Utils.setFinalStatic(clz, "ICON_32", FinalIcons.get("props@2x")));
+                        Utils.setFinalStatic(clz, "ICON_32", FinalIcons.getWithKey("props@2x")));
 //        Utils.classForName("com.ansorgit.plugins.bash.util.BashIcons")
 //                .ifPresent(clz ->
-//                        Utils.setFinalStatic(clz, "BASH_FILE_ICON", FinalIcons.get("sh")));
+//                        Utils.setFinalStatic(clz, "BASH_FILE_ICON", FinalIcons.getWithKey("sh")));
     }
 }

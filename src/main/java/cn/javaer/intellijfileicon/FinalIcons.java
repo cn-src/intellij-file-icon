@@ -26,15 +26,20 @@ public class FinalIcons {
         ICONS.put(".travis.yml", IconLoader.getIcon("/icons/file_type_travis.png"));
         ICONS.put(".kt", IconLoader.getIcon("/icons/kotlin.png"));
         ICONS.put(".gitignore", IconLoader.getIcon("/icons/git.png"));
+        ICONS.put("TODO.md", IconLoader.getIcon("/icons/todo.png"));
     }
 
     private FinalIcons() {}
 
-    public static Icon get(final String fileName) {
+    public static Icon getWithEnds(final String fileName) {
         return ICONS.entrySet().stream()
-                .filter(entry -> fileName.endsWith(entry.getKey()))
+                .filter(entry -> fileName.toLowerCase().endsWith(entry.getKey()))
                 .findFirst()
                 .map(Map.Entry::getValue)
                 .orElse(null);
+    }
+
+    public static Icon getWithKey(final String key) {
+        return ICONS.get(key);
     }
 }

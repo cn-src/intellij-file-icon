@@ -19,6 +19,6 @@ public class FinalFileIconProvider implements FileIconProvider {
     @Nullable
     @Override
     public Icon getIcon(@NotNull final VirtualFile file, final int flags, @Nullable final Project project) {
-        return FinalIcons.get(file.getName());
+        return FinalIcons.getWithEnds(file.getName());
     }
 }
