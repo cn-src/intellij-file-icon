@@ -25,6 +25,7 @@ public class FinalIcons {
         ICONS.put("prop@2x", IconLoader.getIcon("/icons/props@2x.png"));
         ICONS.put(".travis.yml", IconLoader.getIcon("/icons/file_type_travis.png"));
         ICONS.put(".kt", IconLoader.getIcon("/icons/kotlin.png"));
+        ICONS.put(".gitignore", IconLoader.getIcon("/icons/git.png"));
     }
 
     private FinalIcons() {}
