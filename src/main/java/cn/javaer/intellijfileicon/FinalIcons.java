@@ -27,6 +27,7 @@ public class FinalIcons {
         ICONS.put(".kt", IconLoader.getIcon("/icons/kotlin.png"));
         ICONS.put(".gitignore", IconLoader.getIcon("/icons/git.png"));
         ICONS.put("todo.md", IconLoader.getIcon("/icons/todo.png"));
+        ICONS.put("readme.md", IconLoader.getIcon("/icons/readme.png"));
     }
 
     private FinalIcons() {}
