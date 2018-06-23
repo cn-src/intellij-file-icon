@@ -28,6 +28,8 @@ public class FinalIcons {
         ICONS.put(".gitignore", IconLoader.getIcon("/icons/git.png"));
         ICONS.put("todo.md", IconLoader.getIcon("/icons/todo.png"));
         ICONS.put("readme.md", IconLoader.getIcon("/icons/readme.png"));
+        ICONS.put("license", IconLoader.getIcon("/icons/license.png"));
+        ICONS.put("license.txt", IconLoader.getIcon("/icons/license.png"));
     }
 
     private FinalIcons() {}
