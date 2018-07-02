@@ -5,7 +5,7 @@ import com.intellij.openapi.components.ApplicationComponent;
 /**
  * 替换其它插件的图标.
  *
- * @author zhangpeng
+ * @author cn-src
  */
 public class FinalIconReplacerComponent implements ApplicationComponent {
     @Override

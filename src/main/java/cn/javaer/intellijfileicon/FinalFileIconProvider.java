@@ -12,7 +12,7 @@ import javax.swing.Icon;
 /**
  * 更改默认图标.
  *
- * @author zhangpeng
+ * @author cn-src
  */
 public class FinalFileIconProvider implements FileIconProvider {
 

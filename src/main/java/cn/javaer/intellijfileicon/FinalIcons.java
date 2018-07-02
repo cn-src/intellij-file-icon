@@ -9,7 +9,7 @@ import java.util.Map;
 /**
  * 文件图标.
  *
- * @author zhangpeng
+ * @author cn-src
  */
 public class FinalIcons {
     private static final Map<String, Icon> ICONS;
