@@ -32,6 +32,6 @@ public class FinalIconReplacerComponent implements ApplicationComponent {
                         Utils.setFinalStatic(clz, "ICON_32", FinalIcons.get("props@2x")));
         Utils.classForName("no.tornado.tornadofx.idea.PluginIcons")
                 .ifPresent(clz ->
-                        Utils.setFinalStatic(clz, "ACTION", FinalIcons.NODE_ICONS.get("view")));
+                        Utils.setFinalStatic(clz, "ACTION", FinalIcons.NODE_ICONS.get("preview")));
     }
 }
