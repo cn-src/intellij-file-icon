@@ -17,6 +17,7 @@ intellij {
     setPlugins(
         "net.seesharpsoft.intellij.plugins.csv:1.3",
         "com.vladsch.idea.multimarkdown:2.3.8",
-        "org.jodd.idea.props:0.6"
+        "org.jodd.idea.props:0.6",
+        "no.tornado.tornadofx.idea:1.7.14.1"
     )
 }
