@@ -32,7 +32,7 @@ public class FinalIcons {
         FILE_ICONS.put("license.txt", IconLoader.getIcon("/icons/license.png"));
         // ----
         NODE_ICONS = new HashMap<>();
-        NODE_ICONS.put("view", IconLoader.getIcon("/icons/preview.png"));
+        NODE_ICONS.put("preview", IconLoader.getIcon("/icons/preview.png"));
     }
 
     private FinalIcons() {}
