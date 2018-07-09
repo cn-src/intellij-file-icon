@@ -30,8 +30,8 @@ public class FinalIconReplacerComponent implements ApplicationComponent {
         Utils.classForName("jodd.idea.props.Props")
                 .ifPresent(clz ->
                         Utils.setFinalStatic(clz, "ICON_32", FinalIcons.get("props@2x")));
-//        Utils.classForName("com.ansorgit.plugins.bash.util.BashIcons")
-//                .ifPresent(clz ->
-//                        Utils.setFinalStatic(clz, "BASH_FILE_ICON", FinalIcons.get("sh")));
+        Utils.classForName("no.tornado.tornadofx.idea.PluginIcons")
+                .ifPresent(clz ->
+                        Utils.setFinalStatic(clz, "ACTION", FinalIcons.NODE_ICONS.get("view")));
     }
 }
